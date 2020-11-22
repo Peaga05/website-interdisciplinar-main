@@ -1,0 +1,164 @@
+.content{
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 50px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 0;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+}
+
+.btn a{
+    text-decoration: none;
+
+    padding: 0 10px;
+}
+
+.btn__back img{
+    transform: rotate(90deg);
+}
+
+.btn__next img{
+    transform: rotate(-90deg);
+}
+
+.btn__img{
+    height: 20px;
+    width: 20px;
+}
+
+.post{
+    
+}
+
+.post__title{
+    font-size: 48px;
+    text-align: justify;
+
+    padding-bottom: 10px;
+}
+
+.post__info{
+    padding-bottom: 20px;
+}
+
+.post__info--author{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.post__info--date{
+    font-size: 16px;
+    font-weight: thin;
+}
+
+.post__content{
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 0;
+
+    font-size: 18px;
+}
+
+.post__content p{
+    padding-bottom: 10px;
+
+    text-indent: 40px;
+    text-align: justify;
+    line-height: 20px
+}
+
+.post__content img{
+    padding-bottom: 10px;
+}
+
+@media (max-width: 950px){
+    .content{
+        padding: 0 40px;
+    }
+    .post__title{
+        font-size: 36px;
+    }
+    .post__info{
+        padding-bottom: 15px;
+    }
+    .post__info--author{
+        font-size: 12px;
+    }
+    .post__info--date{
+        font-size: 12px;
+    }
+    .post__content{
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 720px){
+    .content{
+        padding: 0 30px;
+    }
+    .post__title{
+        font-size: 28px;
+    }
+    .post__info--author{
+        font-size: 12px;
+    }
+    .post__info--date{
+        font-size: 12px;
+    }
+    .post__content p{
+        text-indent: 30px;
+    }
+}
+
+@media (max-width: 520px){
+    .content{
+        padding: 0 20px;
+    }
+    .post__title{
+        font-size: 24px;
+    }
+    .post__info{
+        padding-bottom: 10px;
+    }
+    .post__info--author{
+        font-size: 10px;
+    }
+    .post__info--date{
+        font-size: 10px;
+    }
+    .post__content{
+        padding: 10px 0;
+    }
+    .post__content p{
+        text-indent: 20px;
+    }
+    .post__content img{
+        height: auto;
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 400px){
+    .post__content{
+        font-size: 16px;
+    }
+    .post__info{
+        padding-bottom: 5px;
+    }
+    .post__content p{
+        text-indent: 20px;
+    }
+}

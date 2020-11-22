@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/generic/reset.css">
+    <link rel="stylesheet" href="../styles/generic/colors.css">
+    <link rel="stylesheet" href="../styles/pages/read.css">
+    <link rel="stylesheet" href="../styles/components/menu.css">
+    <link rel="stylesheet" href="../styles/components/header.css">
+    <link rel="stylesheet" href="../styles/components/footer.css">
+    <link rel="stylesheet" href="../styles/components/line.css">
+    
+    <title>Sparrow</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+            <nav role="navigation">
+                <div id="header__menu--toggle">
+                    <input type="checkbox" />
+                    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    <ul id="header__menu">
+                        <a href="#"><li>Início</li></a>
+                        <a href="#"><li>Tecnologia</li></a>
+                        <a href="#"><li>Esporte</li></a>
+                        <a href="#"><li>Entretenimentos</li></a>
+                        <a href="#"><li>Mistérios</li></a>
+                    </ul>
+                </div>
+                <div class="header__menu--shadow"></div>
+              </nav>
+            <div class="header__logo">
+                <img src="../assets/logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="header__right">
+            <div class="header__search">
+                <label for="search"><img src="../assets/search.svg" alt="search"></label>
+                <input class="header__search--input" id="search" type="text" placeholder="Buscar">
+            </div>     
+        </div>
+    </header>
+    <main class="content">
+        <div class="btns">
+            <div class="btn btn__back">
+                <img class="btn__img" src="../assets/seta.svg" alt="Voltar">
+                <a href="#">Voltar</a>
+            </div>
+            <div class="btn btn__next">
+                <a href="#">Próximo</a>
+                <img  class="btn__img" src="../assets/seta.svg" alt="Próximo">
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="post__title">Após apagão de dados, secretário diz que há indícios de ataque aos sistemas do Ministério da Saúde</h1>
+            <div class="post__info">
+                <p class="post__info--author">Carlos Jr</p>
+                <p class="post__info--date">11/11/2020</p>
+            </div>
+            <div class="line"></div>
+            <div class="post__content">
+                <p>O secretário-executivo do Ministério da Saúde, Elcio Franco, disse nesta sexta-feira (13) que há "indícios" de que a pasta tenha sido alvo de ataques cibernéticos. </p>
+                <p>Mais cedo, também nesta sexta, o diretor-presidente da Agência Nacional de Vigilância Sanitária (Anvisa), Antônio Barra Torres, tratou do tema, mas não falou em indícios. Ele disse a congressistas que houve um ataque de um hacker ao sistema do Ministério da Saúde, afetando também a agência. Isso, segundo ele, impediu a chegada de um aviso, do Instituto Butantan, do episódio da morte de um voluntário dos testes da vacina CoronaVac. </p>
+                <img src="../assets/news/post.png" alt="Postagem">
+                <p>Mais cedo, também nesta sexta, o diretor-presidente da Agência Nacional de Vigilância Sanitária (Anvisa), Antônio Barra Torres, tratou do tema, mas não falou em indícios. Ele disse a congressistas que houve um ataque de um hacker ao sistema do Ministério da Saúde, afetando também a agência. Isso, segundo ele, impediu a chegada de um aviso, do Instituto Butantan, do episódio da morte de um voluntário dos testes da vacina CoronaVac. </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__link">
+            <a href="#">QUEM SOMOS</a>
+        </p>
+    </footer>
+    <script src="../scripts/activate-shadow.js"></script>
+</body>
+</html>

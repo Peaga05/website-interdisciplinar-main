@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 10vh;
+    width: 100%;
+    background-color: var(--color-main);
+}
+
+.footer__link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+
+    color: var(--color-second);
+
+    padding: 0px 40px 0 40px;
+}
+
+.footer__link a{
+    text-decoration: none;
+    color: var(--color-second);
+}
+
+@media (max-width: 600px) {
+    .footer__link{
+        font-size: 12px
+    }
+}

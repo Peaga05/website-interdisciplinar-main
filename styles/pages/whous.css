@@ -1,0 +1,148 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.whous  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 90%;
+}
+
+.whous__description{
+    margin: 20px 0;
+}
+
+.whous__description p{
+    text-align: justify;
+    line-height: 20px;
+
+    padding: 10px;
+}
+
+
+.whous__title{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+    margin: 20px
+}
+
+.whous__member{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.whous__member--thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: auto;
+    width: 300px;
+
+    overflow: hidden;
+
+    margin-left: 10;
+}
+
+.whous__member--thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+
+.whous__member--info{
+    padding-left: 20px;
+}
+
+.whous__member--info h2{
+    font-size: 24px;
+
+    margin-bottom: 20px;
+}
+
+.whous__member--info p{
+    text-align: justify;
+    font-weight: thin;
+}
+
+@media (max-width: 950px){
+    .whous  {
+        width: 100%;
+        padding: 0 30px;
+    }  
+    .whous__member{
+        height: 90px;
+    }
+    .whous__member--thumbnail{
+        height: 90px;
+    }
+    .whous__member--info h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .whous__member--info p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 870px){
+    .whous__member{
+        height: 80px;
+    }
+    .whous__member--thumbnail{
+        height: 100px;
+        width: 300px;
+    }
+    .whous__member--info h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .whous__member--info p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 780px){
+    .whous  {
+        padding: 0 20px;
+    }
+    .whous__member--info{
+        padding-left: 15px;
+    }
+    .whous__member--info h2{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .whous__member--info p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 520px){
+    .whous__member{
+        margin: 20px 0;
+    }
+    .whous__member--info{
+        padding-left: 20px;
+    }
+    .whous__member--info h2{
+        font-size: 24px;
+    }
+    .whous__member--info p{
+        text-align: justify;
+    }
+}
+
+@media (max-width: 510px){
+    .whous{
+        padding: 0;
+    }
+}

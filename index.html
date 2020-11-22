@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/generic/reset.css">
+    <link rel="stylesheet" href="./styles/generic/colors.css">
+    <link rel="stylesheet" href="./styles/pages/home.css">
+    <link rel="stylesheet" href="./styles/components/menu.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+    
+    <title>Sparrow</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+            <nav role="navigation">
+                <div id="header__menu--toggle">
+                    <input type="checkbox" />
+                    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    <ul id="header__menu">
+                        <a href="#"><li>Início</li></a>
+                        <a href="#"><li>Tecnologia</li></a>
+                        <a href="#"><li>Esporte</li></a>
+                        <a href="#"><li>Entretenimentos</li></a>
+                        <a href="#"><li>Mistérios</li></a>
+                    </ul>
+                </div>
+                <div class="header__menu--shadow"></div>
+              </nav>
+            <div class="header__logo">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="header__right">
+            <div class="header__search">
+                <label for="search"><img src="./assets/search.svg" alt="search"></label>
+                <input class="header__search--input" id="search" type="text" placeholder="Buscar">
+            </div>     
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="trend first">
+                <a href="#">
+                    <p>Apple anuncia computadores com processador próprio; veja preços no Brasil</p>
+                </a>
+            </div>
+            <div class="removable content__column">
+                <div class="trend second">
+                    <a href="#">
+                        <p>Animais usados em casacos põem vacinas contra Covid em xeque</p>
+                    </a>
+                </div>
+                <div class="trend third">
+                    <a href="#">
+                        <p>'Cápsula' com mãe e filho, gato 'eleitor', dança por Trump: as histórias das fotos</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__link">
+            <a href="#">QUEM SOMOS</a>
+        </p>
+    </footer>
+    <script src="./scripts/activate-shadow.js"></script>
+    <script src="./scripts/search-animation.js"></script>
+
+    <script src="./scripts/responsividade.js"></script>
+</body>
+</html>
